@@ -1,5 +1,6 @@
 -- 584. Find Customer Referee
 -- second time practice 2025/5/26
+
 SELECT name
 FROM Customer
 WHERE referee_id != '2'
