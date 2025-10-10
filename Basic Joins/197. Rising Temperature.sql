@@ -11,6 +11,7 @@ WHERE w1.temperature > w2.temperature
 
 -- Notes:
 -- 1. SELF JOIN based on specific conditions. Newly generated table seems like this.
+-- SELF JOIN的本质是把一张表当成两张用，用来比较表内不同行之间的关系。
   
 | w1.id | w1.recordDate | w1.temp | w2.id | w2.recordDate | w2.temp |
 | ----- | ------------- | ------- | ----- | ------------- | ------- |
